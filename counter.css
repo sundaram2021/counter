@@ -1,0 +1,54 @@
+div.main{
+    position:relative;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color:rgb(255, 249, 249);
+    height: 300px;
+    box-shadow: 2px 2px 2px 2px #000 ;
+}
+.btn {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-size: 80px;
+}
+  
+button {
+    margin-top: auto;
+    width: 90px;
+    height: 40px;
+    font-size: medium;
+    border-radius: 10px; 
+    justify-content: space-evenly;
+    text-align: center;
+}
+.increase-btn {
+    color: green;
+}
+.increase-btn:hover {
+    background-color: rgb(185, 229, 185);
+}
+.increase-btn:active {
+    background-color: rgb(69, 131, 69);
+}
+.decrease-btn {
+    color: red;
+}
+.decrease-btn:hover {
+    background-color: rgb(234, 184, 184);
+}
+.decrease-btn:active{
+    background-color: rgb(118, 62, 62);
+}
+.reset-btn {
+    color: grey;
+}
+.reset-btn:hover {
+    background-color: rgb(240, 231, 231);
+}
+.reset-btn:active{
+    background-color: rgb(185, 180, 180);
+}
